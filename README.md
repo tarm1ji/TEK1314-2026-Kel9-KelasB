@@ -8,7 +8,7 @@ Repository ini berisi tugas, laporan, dan dokumentasi praktikum mata kuliah **TE
 
 ---
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 | No | Nama                       | NIM            |
 |----|----------------------------|----------------|
