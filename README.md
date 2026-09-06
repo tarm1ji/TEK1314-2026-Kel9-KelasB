@@ -1,4 +1,4 @@
-# Kelompok 9 — CyberSecurity TRK Kelas B
+# TEK1314-2026-Kel9-KelasB
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Course](https://img.shields.io/badge/course-TEK1314-blue)
@@ -20,5 +20,5 @@ Repository ini berisi tugas, laporan, dan dokumentasi praktikum mata kuliah **TE
 ---
 
 <p align="center">
-  <i>TEK1314-2026-Kel9-KelasB · Cyber Security Course Project</i>
+  <i>TEK1314-2026-Kel9-KelasB</i>
 </p>
