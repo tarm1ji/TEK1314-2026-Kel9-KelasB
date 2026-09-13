@@ -1,24 +1,12 @@
 # TEK1314-2026-Kel9-KelasB
+Kelompok 9 Siber Security TEK61-B
 
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Course](https://img.shields.io/badge/course-TEK1314-blue)
-![Year](https://img.shields.io/badge/year-2026-orange)
-
-Repository ini berisi tugas, laporan, dan dokumentasi praktikum mata kuliah **TEK1314 - Cyber Security** untuk Kelompok 9, Kelas B, Tahun Akademik 2026.
-
----
-
-## Anggota Kelompok
-
-| No | Nama                       | NIM            |
-|----|----------------------------|----------------|
-| 1  | Wahyu Pratomo              | J0404241008    |
-| 2  | Zenko Erwin Ardiansyah     | J0404241037    |
-| 3  | Ahdi Khalida Fathir        | J0404241043    |
-| 4  | Hilman Rabbani Dwinarno    | J0404241123    |
-
----
-
-<p align="center">
-  <i>TEK1314-2026-Kel9-KelasB</i>
-</p>
+## Skenario Proyek
+ 
+Proyek ini mensimulasikan skenario serangan terhadap **Database Server** dalam lingkungan jaringan tersegmentasi. Arsitektur memisahkan zona luar (attacker) dari zona dalam (target dan monitoring) melalui router yang bertindak sebagai gateway sekaligus firewall, sehingga hanya trafik pada port layanan database (3306/5432) yang diizinkan masuk ke Target-DB-Server.
+ 
+Komponen utama:
+- **Attacker Node** (Kali Linux) — mensimulasikan penyerang eksternal
+- **Target-DB-Server** (Metasploitable2) — server database yang menjadi sasaran, memiliki service MySQL & PostgreSQL dengan konfigurasi rentan
+- **Monitoring Node** (Security Onion) — memantau seluruh trafik pada segmen internal
+Skema IP tersedia di [`docs/design/ip_plan.md`](docs/design/ip_plan.md), dan diagram topologi di [`docs/design/topology.png`](docs/design/topology.png).
