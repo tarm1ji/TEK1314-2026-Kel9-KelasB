@@ -17,7 +17,7 @@ Subnet : 255.255.255.192
 
 | Port | Service | Potensi Celah |
 | :---: | :---: | ----- |
-| 5432 | PostgreSQL | Metasploitable2 default: MySQL 5.0 tanpa autentikasi root |
+| 5432 | PostgreSQL | Default credential postgres/postgres |
 | 22 | SSH | Jalur awal (initial foothold) sebelum pivot ke database |
-| 3306 | MySQL | Terbuka jika database menjadi backend web app yang rentan jika password default/lemah |
+| 3306 | MySQL | Metasploitable2 default: MySQL 5.0 tanpa autentikasi (root tanpa password) |
 
