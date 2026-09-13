@@ -19,5 +19,5 @@ Subnet : 255.255.255.192
 | :---: | :---: | ----- |
 | 5432 | PostgreSQL | NjutMetasploitable2 default: MySQL 5.0 tanpa autentikasi root |
 | 22 | SSH | Jalur awal (initial foothold) sebelum pivot ke database |
-| 3306 | MySQL | Terbuka jika database menjadi backend web app — rentan jika password default/lemah |
+| 3306 | MySQL | Terbuka jika database menjadi backend web app yang rentan jika password default/lemah |
 
