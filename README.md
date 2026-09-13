@@ -9,4 +9,3 @@ Komponen utama:
 - **Attacker Node** (Kali Linux) — mensimulasikan penyerang eksternal
 - **Target-DB-Server** (Metasploitable2) — server database yang menjadi sasaran, memiliki service MySQL & PostgreSQL dengan konfigurasi rentan
 - **Monitoring Node** (Security Onion) — memantau seluruh trafik pada segmen internal
-Skema IP tersedia di [`docs/design/ip_plan.md`](docs/design/ip_plan.md), dan diagram topologi di [`docs/design/topology.png`](docs/design/topology.png).
