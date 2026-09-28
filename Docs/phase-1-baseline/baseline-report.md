@@ -23,7 +23,7 @@ Laporan ini berisi dokumentasi hasil hardening sistem "before attack" pada infra
 
 ### 2.1 Diagram Topologi
 
-[![][image1]](http://Docs/phase-1-baseline/assets/Topology.png)
+[![][image1]](https://Docs/phase-1-baseline/assets/Topology.png)
 
 ### 2.2 Penjelasan Alur Data
 
@@ -123,7 +123,7 @@ sudo /etc/init.d/xinetd restart
 - Hak sudo dibatasi melalui `/etc/sudoers` (`visudo`), hanya untuk perintah `/usr/sbin/ufw` dan `/usr/bin/apt-get`, sehingga user tersebut tidak memiliki akses administratif penuh.  
 - Login root langsung melalui SSH dinonaktifkan dengan `PermitRootLogin no` pada `/etc/ssh/sshd_config`, lalu layanan SSH di-restart.
 
-[`![][image3]`](http://Docs/phase-1-baseline/assets/user-access-config.png)
+[`![][image3]`](https://Docs/phase-1-baseline/assets/user-access-config.png)
 
 ### 4.3 Update Security Patch
 
@@ -155,7 +155,7 @@ Aktivitas yang diuji: **Ping (ICMP)** dari terminal penyerang/client ke server t
 ### 5.3 Bukti Visual
 
 Screenshot dashboard Sguil/Squert yang menampilkan aktivitas ICMP tersebut:  
-[![][image4]](http://Docs/phase-1-baseline/assets/security-onion-icmp-log.png)
+[![][image4]](https://Docs/phase-1-baseline/assets/security-onion-icmp-log.png)
 
 ![Log ICMP Security Onion]()
 
