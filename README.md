@@ -13,17 +13,17 @@
 
 ## Navigasi Dokumentasi Repository (Struktur Bagian XI)
 
-- **Arsitektur & Skema IP (Minggu 4):** [`docs/design/ip_plan.md`](docs/design/ip_plan.md) | [`docs/design/topology.png`](docs/design/topology.png)
-- **Presentasi & Deklarasi Tech Stack (Minggu 9):** [`docs/presentation-minggu9/slides.pdf`](docs/presentation-minggu9/slides.pdf) | [`docs/presentation-minggu9/tech_stack_declaration.md`](docs/presentation-minggu9/tech_stack_declaration.md)
-- **Hardening Checklist & Bukti Blue Team:** [`docs/blueteam/hardening_checklist.md`](docs/blueteam/hardening_checklist.md) | [`docs/blueteam/evidence/`](docs/blueteam/evidence/)
-- **Attack Plan & Bukti Red Team:** [`docs/redteam/attack_plan.md`](docs/redteam/attack_plan.md) | [`docs/redteam/evidence/`](docs/redteam/evidence/)
-- **Log Purple Team Loop:** [`docs/purple-team-log.md`](docs/purple-team-log.md)
+- **Arsitektur & Skema IP (Minggu 4):** [`docs/design/ip_plan.md`](Docs/Design/ip_plan.md) | [`docs/design/topology.png`](Docs/Design/topology.png)
+- **Presentasi & Deklarasi Tech Stack (Minggu 9):** [`docs/presentation-minggu9/slides.pdf`](Docs/presentation-minggu9/slides.pdf) | [`docs/presentation-minggu9/tech_stack_declaration.md`](Docs/presentation-minggu9/tech_stack_declaration.md)
+- **Hardening Checklist & Bukti Blue Team:** [`docs/blueteam/hardening_checklist.md`](Docs/blueteam/hardening_checklist.md) | [`docs/blueteam/evidence/`](Docs/blueteam/evidence/)
+- **Attack Plan & Bukti Red Team:** [`docs/redteam/attack_plan.md`](Docs/redteam/attack_plan.md) | [`docs/redteam/evidence/`](Docs/redteam/evidence/)
+- **Log Purple Team Loop:** [`docs/purple-team-log.md`](Docs/purple-team-log.md)
 
 ---
 
 ## Logbook Progres Mingguan (Minggu 1 – 9)
 
-> **Catatan Status:** Status "Selesai" pada Minggu ke-9 merujuk pada penyusunan kerangka skenario, analisis root cause awal, pengujian baseline, dan implementasi kontrol mitigasi Blue Team. Eksekusi penuh pengujian Red Team (termasuk tahap Deteksi oleh Blue Team dan verifikasi alert SIEM) dijadwalkan berlangsung pada Minggu ke-10 s.d. Minggu ke-11, sebagaimana tercatat pada [`docs/purple-team-log.md`](docs/purple-team-log.md).
+> **Catatan Status:** Status "Selesai" pada Minggu ke-9 merujuk pada penyusunan kerangka skenario, analisis root cause awal, pengujian baseline, dan implementasi kontrol mitigasi Blue Team. Eksekusi penuh pengujian Red Team (termasuk tahap Deteksi oleh Blue Team dan verifikasi alert SIEM) dijadwalkan berlangsung pada Minggu ke-10 s.d. Minggu ke-11, sebagaimana tercatat pada [`docs/purple-team-log.md`](Docs/purple-team-log.md).
 
 |  Minggu   | Fokus Kegiatan                                                | Progres & Deliverable Kelompok                                                                                                                                                                                                   | Status  |
 | :-------: | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
