@@ -4,7 +4,7 @@
 **Proyek IoT:** Smart Soil Monitoring System untuk Tanaman Kopi
 **Topologi Lab:** Attacker Kali (`192.168.9.10`) $\rightarrow$ Target Ubuntu (`192.168.9.70`) | Monitoring Security Onion (`192.168.9.90`)
 
-Dokumen ini mencatat siklus tertutup 5 tahap (_Serang $\rightarrow$ Deteksi $\rightarrow$ Analisis $\rightarrow$ Respons/Mitigasi $\rightarrow$ Verifikasi_) antara Red Team dan Blue Team untuk setiap skenario pengujian Fase 2.
+Dokumen ini mencatat siklus tertutup 5 tahap (Serang -> Deteksi -> Analisis -> Respons/Mitigasi -> Verifikasi) antara Red Team dan Blue Team untuk setiap skenario pengujian Fase 2.
 
 > **Keterangan Progres Minggu ke-9:** Kerangka skenario, analisis _root cause_, pengujian baseline awal, dan implementasi kontrol mitigasi Blue Team telah disiapkan pada Minggu ke-9. Eksekusi pengujian penuh Red Team dan verifikasi alert SIEM dijadwalkan berlangsung pada Minggu ke-10 s.d. Minggu ke-11.
 
